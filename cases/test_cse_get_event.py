@@ -1,8 +1,8 @@
 import requests
 import unittest
 import pymysql
-from 接口自动化框架.ulit.ulit import BASEURL
-from 接口自动化框架.Con_data_base.Connectdata import connect_data
+from ulit.ulit import BASEURL
+from Con_data_base.Connectdata import connect_data
 url = BASEURL+'sec_get_event_list/'
 class Test_case(unittest.TestCase):
     '''有用户验证的情况下查询发布会'''

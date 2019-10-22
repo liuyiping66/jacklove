@@ -1,7 +1,7 @@
 import requests
 import unittest
-from 接口自动化框架.ulit.ulit import BASEURL
-from 接口自动化框架.Con_data_base.Connectdata import connect_data
+from ulit.ulit import BASEURL
+from Con_data_base.Connectdata import connect_data
 url = BASEURL+'get_event_list/'
 class Test_case(unittest.TestCase):
     '''查询发布会'''
